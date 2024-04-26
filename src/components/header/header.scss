@@ -1,0 +1,53 @@
+// Header.scss
+.headerContainer {
+  flex-grow: 1;
+  background-color: transparent !important;
+  box-shadow: none !important;
+  .leftContainer {
+    padding: 0;
+    margin: 0;
+    margin-block-end: 0;
+    margin-block-start: 0;
+    .logo {
+      width: 250px; /* Set your desired width */
+      height: auto; /* Set your desired height */
+      overflow: hidden; /* Hide any overflowing parts of the image */
+      #jassRenoLogo {
+        width: 100%; /* Make the image fill its container horizontally */
+        height: 100%; /* Make the image fill its container vertically */
+        object-fit: cover;
+      }
+    }
+  }
+  .rightContainer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 17px;
+    .subRight {
+        margin-top: 20px;
+        display: flex;
+        .labelSpan {
+            padding-top: 0px;
+            padding-left: 0px;
+            padding-right: 39px;
+            padding-bottom: 17px;
+            a {
+                text-decoration: none;
+                color: #4f5a65;
+                p {
+                    font-size: 20px !important;
+                    font-weight: 600;
+                    line-height: 23px;
+                    text-transform: capitalize;
+                    font-family: serif;
+                    text-decoration: none !important;
+                }
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+    
+  }
+}
