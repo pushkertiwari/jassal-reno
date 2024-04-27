@@ -1,9 +1,9 @@
 import Layout from "../layout"
 
-export default function Contact(){
+export default function About(){
     return (
         <>
-       <Layout>Contact</Layout>
+       <Layout>About</Layout>
         </>
     )
 }
