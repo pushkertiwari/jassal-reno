@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ef9b24c2.css",
+    "main.js": "/static/js/main.ec50576a.js",
+    "static/js/453.fa1788f5.chunk.js": "/static/js/453.fa1788f5.chunk.js",
+    "static/media/reno.jpeg": "/static/media/reno.d476f67bab36fe7c01ca.jpeg",
+    "index.html": "/index.html",
+    "main.ef9b24c2.css.map": "/static/css/main.ef9b24c2.css.map",
+    "main.ec50576a.js.map": "/static/js/main.ec50576a.js.map",
+    "453.fa1788f5.chunk.js.map": "/static/js/453.fa1788f5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ef9b24c2.css",
+    "static/js/main.ec50576a.js"
+  ]
+}

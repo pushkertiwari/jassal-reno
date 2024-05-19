@@ -1,0 +1,36 @@
+.our-reach-section {
+  justify-content: center;
+  .our-reach-card {
+    position: relative;
+    max-height: 319px;
+    bottom: 50%;
+    margin: 0 15px;
+    padding: 35px 61px 55px 54px;
+    background-color: #1f3a93;
+    border-top: 5px solid #86e2d5;
+    .card-title {
+      color: #86e2d5;
+      font-size: 57px;
+      font-family: Acronym-Regular, serif;
+      line-height: 63px;
+      display: -webkit-box;
+      -webkit-line-clamp: 1;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      max-height: 63px;
+    }
+    .sub-title {
+      color: #f3fbfd;
+      font-size: 24px;
+      line-height: 30px;
+      max-height: 95px;
+      font-family: Acronym-Regular, serif;
+      width: 90%;
+      margin-top: 30px;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+  }
+}
