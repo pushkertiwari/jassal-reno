@@ -1,0 +1,15 @@
+.imageContainerSection {
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    .innerContainerImage {
+        width: 600px;
+        .imageBoxContainer {
+            width: 100%;
+            img {
+                width: 100%;
+                height: 300px;
+            }
+        }
+    }
+}

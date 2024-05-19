@@ -1,0 +1,42 @@
+// const useStyles = makeStyles((theme) => ({
+//     root: {
+//       display: 'flex',
+//       justifyContent: 'center',
+//       alignItems: 'center',
+//       height: '100vh',
+//     },
+//     formContainer: {
+//       padding: theme.spacing(3),
+//       boxShadow: theme.shadows[3],
+//       backgroundColor: 'white',
+//       borderRadius: theme.shape.borderRadius,
+//     },
+//     form: {
+//       display: 'flex',
+//       flexDirection: 'column',
+//       gap: theme.spacing(2),
+//     },
+//   }));
+.MuiContainer-root {
+    .root{
+        display: 'flex' !important;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        .formContainer {
+            padding: 10px;
+            box-shadow: 10px;
+            background-color: white;
+            border-radius: 10px;
+            justify-items: center;
+            .form {
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 10px;
+                .MuiInputBase-root {
+                    margin-bottom: 10px !important;
+                }
+            }
+        }
+    }
+}

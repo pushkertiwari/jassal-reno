@@ -75,15 +75,11 @@ const Footer = () => {
                   Company
                 </Typography>
               </Box>
-              <Link href="#" className={"footerLink"} underline="hover">
+              <Link href="/about" className={"footerLink"} underline="hover">
                 About Us
               </Link>
               <br />
-              <Link href="#" className={"footerLink"} underline="hover">
-                Our Story
-              </Link>
-              <br />
-              <Link href="#" className={"footerLink"} underline="hover">
+              <Link href="/team" className={"footerLink"} underline="hover">
                 Our Team
               </Link>
 
