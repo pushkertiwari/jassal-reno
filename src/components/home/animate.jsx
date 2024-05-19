@@ -1,21 +1,7 @@
 import React from "react";
 import { Container, Typography, Box } from "@mui/material";
-import { useSpring, animated } from "react-spring";
 
 const AnimatedText = () => {
-  const animationProps = useSpring({
-    from: { opacity: 0, transform: "translate3d(0,40px,0)" },
-    to: { opacity: 1, transform: "translate3d(0,0px,0)" },
-    config: { tension: 100, friction: 26 },
-    delay: 500,
-  });
-
-  const infoTexts = [
-    "Transform your kitchen with modern designs and high-quality materials.",
-    "Upgrade your bathroom with new fixtures and contemporary designs.",
-    "Turn your basement into a livable and functional space.",
-    "Expand your living space with custom home additions.",
-  ];
 
   return (
     <Container>
